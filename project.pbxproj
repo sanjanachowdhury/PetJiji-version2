@@ -14,6 +14,7 @@
 		B845A70E27E3D039001775DC /* PetJiji.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B845A70C27E3D039001775DC /* PetJiji.xcdatamodeld */; };
 		B845A71027E3D03B001775DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B845A70F27E3D03B001775DC /* Assets.xcassets */; };
 		B845A71327E3D03B001775DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B845A71127E3D03B001775DC /* LaunchScreen.storyboard */; };
+		B8624B7F28018F2E00A751C6 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8624B7E28018F2E00A751C6 /* Pet.swift */; };
 		B879073027E938660005C66A /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879072F27E938660005C66A /* FAQ.swift */; };
 		B879073227E9389A0005C66A /* Personality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879073127E9389A0005C66A /* Personality.swift */; };
 		B879073427E938C50005C66A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879073327E938C50005C66A /* Question.swift */; };
@@ -31,6 +32,7 @@
 		B845A70F27E3D03B001775DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B845A71227E3D03B001775DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B845A71427E3D03B001775DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8624B7E28018F2E00A751C6 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		B879072F27E938660005C66A /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		B879073127E9389A0005C66A /* Personality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality.swift; sourceTree = "<group>"; };
 		B879073327E938C50005C66A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		B845A70227E3D039001775DC /* PetJiji */ = {
 			isa = PBXGroup;
 			children = (
+				B8624B7D28018F2000A751C6 /* Model */,
 				B845A70327E3D039001775DC /* AppDelegate.swift */,
 				B845A70527E3D039001775DC /* SceneDelegate.swift */,
 				B845A70727E3D039001775DC /* ViewController.swift */,
@@ -83,6 +86,14 @@
 				B879073727E93B120005C66A /* MainMenu.swift */,
 			);
 			path = PetJiji;
+			sourceTree = "<group>";
+		};
+		B8624B7D28018F2000A751C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8624B7E28018F2E00A751C6 /* Pet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				B845A70427E3D039001775DC /* AppDelegate.swift in Sources */,
 				B879073627E9390E0005C66A /* Settings.swift in Sources */,
 				B845A70627E3D039001775DC /* SceneDelegate.swift in Sources */,
+				B8624B7F28018F2E00A751C6 /* Pet.swift in Sources */,
 				B879073027E938660005C66A /* FAQ.swift in Sources */,
 				B879073227E9389A0005C66A /* Personality.swift in Sources */,
 				B879073427E938C50005C66A /* Question.swift in Sources */,
